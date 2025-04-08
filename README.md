@@ -5,11 +5,11 @@ This project displays:
 - information about the selected user
   
 on the web page of the bank's vault.
-# How to install
+## How to install
 This project uses: 
-## Frameworks: 
+### Frameworks: 
 [django framework](https://proglib.io/p/django-s-nulya-chast-1-pishem-mnogopolzovatelskiy-blog-dlya-kluba-lyubiteley-zadach-python-2022-06-06?ysclid=m98dche8su133012813)
-## Libraries: 
+### Libraries: 
 [dotenv](https://betterdatascience-page.pages.dev/python-dotenv/), [os](https://docs.python.org/3/library/os.html), [functools](https://docs.python.org/3/library/functools.html)
 
 Python3 should already be installed. Use `pip` (or `pip3`, there is a conflict with Python2) to install dependencies:
@@ -26,3 +26,9 @@ NAME=your secret information
 USER=your secret information
 PASSWORD=your secret information
 ```
+## How to launch
+To launch the project, you need to enter this command in the console:
+```
+python manage.py runserver 0.0.0.0:8000
+```
+

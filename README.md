@@ -1,6 +1,6 @@
 # Bank security control panel
-В этом проекте отображается:
-- количество активных карт доступа
--  количество пользователей назодящихся в хранилище
--  информация о выбранном пользователе
-на веб-странице хранилища банка.
+This project displays:
+- number of active access cards
+- the number of users who are currently in storage
+- information about the selected user
+on the web page of the bank's vault.

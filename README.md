@@ -12,6 +12,12 @@ This project uses:
 ### Libraries: 
 [dotenv](https://betterdatascience-page.pages.dev/python-dotenv/), [os](https://docs.python.org/3/library/os.html), [functools](https://docs.python.org/3/library/functools.html)
 
+Create and activate a virtual environment
+```
+python -m venv venv
+source ./venv/Scripts/activate # for Windows
+source ./venv/bin/activate #for Linux and macOS
+```
 Python3 should already be installed. Use `pip` (or `pip3`, there is a conflict with Python2) to install dependencies:
 ```
 pip install -r requirements.txt

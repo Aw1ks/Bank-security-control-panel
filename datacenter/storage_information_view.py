@@ -3,7 +3,7 @@ from django.utils import duration
 
 from datacenter.models import Visit
 from django.shortcuts import render
-from datacenter.passcard_info_view import calculate_visit_duration, is_visit_long
+from datacenter.common_functions import calculate_visit_duration, is_visit_long
 
 
 def storage_information_view(request):

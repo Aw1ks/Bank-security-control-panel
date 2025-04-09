@@ -31,6 +31,8 @@ DB_PORT=your secret information
 DB_NAME=your secret information
 DB_USER=your secret information
 DB_PASSWORD=your secret information
+DB_SECRET_KEY=your secret information
+DB_DEBUG=your secret information
 ```
 ## How to launch
 To launch the project, you need to enter this command in the console:

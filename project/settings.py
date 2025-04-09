@@ -5,12 +5,12 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-engine = os.getenv('BD_ENGINE')
-host = os.getenv('BD_HOST')
-port = os.getenv('BD_PORT')
-name = os.getenv('BD_NAME')
-user = os.getenv('BD_USER')
-password = os.getenv('BD_PASSWORD')
+engine = os.getenv('DB_ENGINE')
+host = os.getenv('DB_HOST')
+port = os.getenv('DB_PORT')
+name = os.getenv('DB_NAME')
+user = os.getenv('DB_USER')
+password = os.getenv('DB_PASSWORD')
 
 
 DATABASES = {

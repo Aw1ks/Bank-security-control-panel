@@ -25,12 +25,12 @@ pip install -r requirements.txt
 To save the data from prying eyes, we will create an .env file in which we will place: `ENGINE`, `HOST`, `PORT`, `NAME`, `USER`, `PASSWORD`.
 Let's do it this way: 
 ```
-ENGINE=your secret information
-HOST=your secret information
-PORT=your secret information
-NAME=your secret information
-USER=your secret information
-PASSWORD=your secret information
+DB_ENGINE=your secret information
+DB_HOST=your secret information
+DB_PORT=your secret information
+DB_NAME=your secret information
+DB_USER=your secret information
+DB_PASSWORD=your secret information
 ```
 ## How to launch
 To launch the project, you need to enter this command in the console:

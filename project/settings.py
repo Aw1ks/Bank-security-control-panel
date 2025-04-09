@@ -11,6 +11,8 @@ port = os.getenv('DB_PORT')
 name = os.getenv('DB_NAME')
 user = os.getenv('DB_USER')
 password = os.getenv('DB_PASSWORD')
+secret_key = os.getenv('DB_SECRET_KEY')
+debug = os.getenv('DB_DEBUG')
 
 
 DATABASES = {
@@ -26,9 +28,9 @@ DATABASES = {
 
 INSTALLED_APPS = ['datacenter']
 
-SECRET_KEY = 'REPLACE_ME'
+SECRET_KEY = secret_key
 
-DEBUG = True
+DEBUG = debug
 
 ROOT_URLCONF = 'project.urls'
 
